@@ -12,20 +12,22 @@
         <h3>always the best way you need it</h3>
       </div>
       <h1 class="text-9xl w-2/5">the best businnes consulting</h1>
+
       <BaseButton
         class="mt-8"
         :color="'bg-green-400'"
         :innerText="'read more'"
       />
-      <button class="ml-8">play</button>
+      <PlayButton class="ml-6" />
     </div>
   </section>
 </template>
 
 <script>
 import BaseButton from './blocks/BaseButton.vue';
+import PlayButton from './blocks/PlayButton.vue';
 export default {
-  components: { BaseButton },
+  components: { BaseButton, PlayButton },
   name: 'BaseHero',
 };
 </script>
