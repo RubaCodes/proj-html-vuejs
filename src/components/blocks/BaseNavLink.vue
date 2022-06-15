@@ -1,5 +1,5 @@
 <template>
-  <a class="block py-8 uppercase font-xl" href="/">{{ linkName }}</a>
+  <a class="block py-8 uppercase text-lg" href="/">{{ linkName }}</a>
 </template>
 
 <script>
