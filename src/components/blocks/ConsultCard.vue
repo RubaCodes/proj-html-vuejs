@@ -1,7 +1,7 @@
 <template>
   <div class="card flex gap-8">
     <i
-      :classe="info.icon"
+      :class="info.icon"
       class="fa-solid bg-red-500 p-3 rounded-full text-white"
     ></i>
     <div>
