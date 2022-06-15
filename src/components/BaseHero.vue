@@ -9,7 +9,7 @@
     >
       <div class="flex gap-4 items-baseline">
         <hr class="w-24 hr" />
-        <h3>always the best way you need it</h3>
+        <h3 class="text-2xl">always the best way you need it</h3>
       </div>
       <h1 class="text-9xl w-2/5">the best businnes consulting</h1>
 
