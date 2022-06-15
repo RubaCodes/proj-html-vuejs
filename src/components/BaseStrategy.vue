@@ -1,16 +1,16 @@
 <template>
   <section
-    class="bg-slate-900 bg-strategy-pattern bg-no-repeat bg-left bg-contain"
+    class="bg-slate-900 bg-strategy-pattern bg-no-repeat bg-left"
     id="strategy"
   >
-    <div class="container mx-auto text-white pt-72 pb-64" id="hero-title">
-      <div class="w-2/5 ml-auto">
-        <div class="flex gap-4 items-baseline">
+    <div class="container mx-auto text-white py-48" id="hero-title">
+      <div class="w-1/3 ml-auto">
+        <div class="flex gap-4 items-baseline pb-6">
           <hr class="w-20 border-green-400 border-2" />
           <h3 class="text-xl uppercase">about us</h3>
         </div>
-        <h2 class="text-7xl uppercase">we make your strategy work</h2>
-        <p>
+        <h2 class="text-5xl uppercase">we make your strategy work</h2>
+        <p class="pt-6">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore
           repellendus esse, in optio beatae veritatis, qui ipsum facilis eius
           quo quae, illo ea blanditiis perferendis ut aspernatur! Reprehenderit,
@@ -21,16 +21,33 @@
         </p>
       </div>
     </div>
-    <!-- <BaseButton class="mt-8" :color="'bg-green-400'" :innerText="'read more'" /> -->
+    <div class="w-[95%] mr-auto bg-green-400 py-14 relative">
+      <div class="container w-3/5 mx-auto flex gap-80">
+        <h3 class="text-2xl uppercase w-3/12">
+          we help to deliver the business case
+        </h3>
+        <p class="w-2/5">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus
+          consectetur aut officiis, iste tempore inventore blanditiis asperiores
+          ex porro veniam facilis praesentium doloribus reiciendis deserunt
+          similique iusto totam? Rem, distinctio.
+        </p>
+        <BaseButton
+          class="mt-8 absolute bottom-0 right-0 text-white"
+          :color="'bg-red-500'"
+          :innerText="'read more'"
+        />
+      </div>
+    </div>
   </section>
 </template>
 
 <script>
-//import BaseButton from './blocks/BaseButton.vue';
+import BaseButton from './blocks/BaseButton.vue';
 export default {
   name: 'BaseStrategy',
   components: {
-    // BaseButton,
+    BaseButton,
   },
 };
 </script>
