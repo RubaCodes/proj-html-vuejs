@@ -1,5 +1,5 @@
 <template>
-  <ul>
+  <ul class="flex gap-8 items-center">
     <li v-for="link in data.headerLinkList" :key="link">
       <BaseNavLink :linkName="link"></BaseNavLink>
     </li>
