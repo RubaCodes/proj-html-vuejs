@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-slate-900 py-32" id="projects">
+  <section class="bg-slate-900" id="projects">
     <div
       class="container mx-auto text-white pb-12 flex justify-between items-end"
       id="hero-title"

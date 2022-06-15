@@ -6,7 +6,7 @@
     <BaseHero />
     <BaseConsultants class="py-28" />
     <BaseStrategy />
-    <BaseProject />
+    <BaseProject class="py-32" />
   </div>
 </template>
 
