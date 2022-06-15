@@ -11,7 +11,7 @@
         <hr class="w-20 border-green-400 border-2" />
         <h3 class="text-2xl">always the best way you need it</h3>
       </div>
-      <h1 class="text-9xl w-2/5">the best businnes consulting</h1>
+      <h1 class="text-9xl w-2/5">the best business consulting</h1>
 
       <BaseButton
         class="mt-8"
