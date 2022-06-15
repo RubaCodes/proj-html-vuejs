@@ -5,7 +5,8 @@
     @mouseleave="hovered = !hovered"
   >
     <img
-      class="block hover:opacity-20 transition-opacity 100ms ease-in-out"
+      class="block transition-opacity 100ms ease-in-out"
+      :class="{ 'opacity-20': hovered }"
       src="https://picsum.photos/790/592"
       :alt="project.name"
     />
