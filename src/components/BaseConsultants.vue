@@ -1,10 +1,10 @@
 <template>
   <section id="consultants">
-    <div class="container ml-auto flex items-center gap-6">
+    <div class="flex items-center gap-10 container ml-auto">
       <h2 class="text-xl uppercase">our consultants can help you</h2>
       <hr class="border-green-400 border-2 grow" />
     </div>
-    <ConsultantsLibrary class="container w-1/2 mx-auto pt-20" />
+    <ConsultantsLibrary class="container ml-auto pt-20" />
   </section>
 </template>
 
