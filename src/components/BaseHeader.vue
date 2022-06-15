@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto flex justify-between items-center">
-    <img class="w-40" src="../assets/img/logotype.png" alt="logo" />
+    <img class="w-36" src="../assets/img/logotype.png" alt="logo" />
     <BaseNav />
   </div>
 </template>
