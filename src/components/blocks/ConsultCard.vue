@@ -6,7 +6,7 @@
     ></i>
     <div>
       <h3 class="uppercase text-lg">{{ info.title }}</h3>
-      <p>{{ info.description }}</p>
+      <p class="text-sm text-slate-600">{{ info.description }}</p>
     </div>
   </div>
 </template>

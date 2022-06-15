@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="grid grid-cols-2 gap-28">
+    <div class="grid grid-cols-2 columns-3xs gap-28">
       <ConsultCard
         v-for="(consult, index) in data.consultantsCardContent"
         :key="index"
