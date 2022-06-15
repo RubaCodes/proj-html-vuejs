@@ -6,6 +6,7 @@
     <BaseHero />
     <BaseConsultants class="py-28" />
     <BaseStrategy />
+    <BaseProject />
   </div>
 </template>
 
@@ -13,9 +14,17 @@
 import BaseConsultants from './components/BaseConsultants.vue';
 import BaseHeader from './components/BaseHeader.vue';
 import BaseHero from './components/BaseHero.vue';
+import BaseProject from './components/BaseProject.vue';
 import BaseStrategy from './components/BaseStrategy.vue';
+
 export default {
   name: 'App',
-  components: { BaseHeader, BaseHero, BaseConsultants, BaseStrategy },
+  components: {
+    BaseHeader,
+    BaseHero,
+    BaseConsultants,
+    BaseStrategy,
+    BaseProject,
+  },
 };
 </script>

@@ -42,7 +42,7 @@ export default Vue.observable({
     {
       name: 'vizeon',
       category: 'uncategorized',
-      media: 'src/assets/img/z1el4c4p-790x592.jpg',
+      media: '../assets/img/z1el4c4p-790x592.jpg',
     },
   ],
 });
