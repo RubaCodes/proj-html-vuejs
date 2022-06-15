@@ -8,7 +8,7 @@
       id="hero-title"
     >
       <div class="flex gap-4 items-baseline">
-        <hr class="w-24 hr" />
+        <hr class="w-20 border-green-400 border-2" />
         <h3 class="text-2xl">always the best way you need it</h3>
       </div>
       <h1 class="text-9xl w-2/5">the best businnes consulting</h1>
