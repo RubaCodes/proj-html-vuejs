@@ -4,7 +4,7 @@
       <h2 class="text-xl uppercase">our consultants can help you</h2>
       <hr class="border-green-400 border-2 grow" />
     </div>
-    <ConsultantsLibrary class="container ml-auto pt-20" />
+    <ConsultantsLibrary class="w-3/5 mx-auto pt-20" />
   </section>
 </template>
 

@@ -1,10 +1,12 @@
 <template>
-  <div class="grid grid-cols-2">
-    <ConsultCard
-      v-for="(consult, index) in data.consultantsCardContent"
-      :key="index"
-      :info="consult"
-    />
+  <div>
+    <div class="grid grid-cols-2 gap-28">
+      <ConsultCard
+        v-for="(consult, index) in data.consultantsCardContent"
+        :key="index"
+        :info="consult"
+      />
+    </div>
   </div>
 </template>
 
