@@ -1,5 +1,5 @@
 <template>
-  <button class="py-4 px-8 uppercase text-black" :class="color">
+  <button class="py-4 px-8 uppercase" :class="color">
     {{ innerText }}
   </button>
 </template>
