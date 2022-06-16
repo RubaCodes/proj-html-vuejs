@@ -1,5 +1,5 @@
 <template>
-  <div class="flex gap-x-4">
+  <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
     <ProjectCard
       v-for="(project, index) in data.projects"
       :key="index"

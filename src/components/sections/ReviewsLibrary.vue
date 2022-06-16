@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-3">
+  <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
     <ReviewCard
       v-for="(review, index) in data.reviews"
       :key="index"
