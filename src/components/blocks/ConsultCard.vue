@@ -2,7 +2,7 @@
   <div class="card flex gap-8">
     <i
       :class="info.icon"
-      class="fa-solid bg-red-500 p-3 rounded-full text-white"
+      class="fa-solid bg-primary-red p-3 rounded-full text-white"
     ></i>
     <div>
       <h3 class="uppercase text-lg">{{ info.title }}</h3>

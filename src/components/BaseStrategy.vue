@@ -6,7 +6,7 @@
     <div class="container mx-auto text-white py-56" id="hero-title">
       <div class="w-1/3 ml-auto">
         <div class="flex gap-4 items-baseline pb-6">
-          <hr class="w-20 border-green-400 border-2" />
+          <hr class="w-20 border-primary-green border-2" />
           <h3 class="text-xl uppercase">about us</h3>
         </div>
         <h2 class="text-5xl uppercase font-bold">we make your strategy work</h2>
@@ -21,7 +21,7 @@
         </p>
       </div>
     </div>
-    <div class="w-[90%] mr-auto bg-green-400 py-16 relative">
+    <div class="w-[90%] mr-auto bg-primary-green py-16 relative">
       <div class="container w-3/5 mx-auto flex gap-80 items-center">
         <h3 class="text-2xl uppercase w-3/12 font-bold">
           we help to deliver the business case
@@ -33,8 +33,7 @@
           similique iusto totam? Rem, distinctio.
         </p>
         <BaseButton
-          class="mt-8 absolute bottom-0 right-0 text-white px-16 bg-red-500"
-          :color="'bg-red-500'"
+          class="mt-8 absolute bottom-0 right-0 text-white px-16 bg-primary-red"
           :innerText="'read more'"
         />
       </div>

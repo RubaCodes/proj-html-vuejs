@@ -4,7 +4,9 @@ module.exports = {
     extend: {
       colors: {
         'dark-background': '#1f1e38',
-        'water-green': '#39ffbf',
+        'primary-green': '#39ffbf',
+        'primary-red': '#f81d39',
+        'primary-gray': '#888888',
       },
       fontFamily: {
         sans: ['Inter', 'Sans-serif'],

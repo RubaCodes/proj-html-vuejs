@@ -1,8 +1,8 @@
 <template>
-  <footer class="bg-slate-900">
+  <footer class="bg-dark-background">
     <div class="mx-auto container">
       <FooterTop class="py-8" />
-      <hr class="border-slate-500" />
+      <hr class="border-primary-gray" />
       <FooterBottom class="py-6" />
     </div>
   </footer>

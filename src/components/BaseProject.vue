@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-slate-900" id="projects">
+  <section class="bg-dark-background" id="projects">
     <div
       class="container mx-auto text-white pb-12 flex justify-between items-end"
       id="hero-title"
@@ -7,7 +7,7 @@
       <div>
         <!-- sottotitolo -->
         <div class="flex gap-4 items-baseline pb-6">
-          <hr class="w-20 border-green-400 border-2" />
+          <hr class="w-20 border-primary-green border-2" />
           <h3 class="text-xl uppercase">about us</h3>
         </div>
         <!-- titolo -->

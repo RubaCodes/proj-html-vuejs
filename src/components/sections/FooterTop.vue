@@ -1,7 +1,7 @@
 <template>
   <div class="flex justify-between items-center text-white" id="footer-top">
     <img src="../../assets/img/logotype-2-150x25.png" alt="log-small" />
-    <BaseNav class="text-slate-500" />
+    <BaseNav class="text-primary-gray" />
     <div class="flex gap-4" id="socials">
       <i class="fa-brands fa-instagram"></i>
       <i class="fa-brands fa-linkedin-in"></i>

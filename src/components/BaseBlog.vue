@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-slate-900" id="blog">
+  <section class="bg-dark-background" id="blog">
     <div
       class="container mx-auto text-white pb-12 flex justify-between items-end"
       id="hero-title"
@@ -7,7 +7,7 @@
       <div>
         <!-- sottotitolo -->
         <div class="flex gap-4 items-baseline pb-6">
-          <hr class="w-20 border-green-400 border-2" />
+          <hr class="w-20 border-primary-green border-2" />
           <h3 class="text-xl uppercase">blog</h3>
         </div>
         <!-- titolo -->
@@ -15,7 +15,10 @@
           the recent news you must read it
         </h2>
       </div>
-      <BaseButton class="bg-green-500 px-10" :innerText="'view all'" />
+      <BaseButton
+        class="bg-primary-green px-10 text-black"
+        :innerText="'view all'"
+      />
     </div>
     <PostsLibrary class="container mx-auto" />
   </section>

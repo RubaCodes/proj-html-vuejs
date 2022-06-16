@@ -14,7 +14,7 @@
       <h1 class="text-9xl w-2/5">the best business consulting</h1>
 
       <BaseButton
-        class="mt-8 px-8 py-4 bg-water-green text-black"
+        class="mt-8 px-8 py-4 bg-primary-green text-black"
         :innerText="'read more'"
       />
       <PlayButton class="ml-6 text-water-green" />

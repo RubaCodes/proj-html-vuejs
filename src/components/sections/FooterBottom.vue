@@ -1,6 +1,6 @@
 <template>
   <div
-    class="text-slate-500 flex justify-between items-center"
+    class="text-primary-gray flex justify-between items-center"
     id="footer-bottom"
   >
     <div>
