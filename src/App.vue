@@ -8,10 +8,12 @@
     <BaseStrategy />
     <BaseProject class="py-32" />
     <BaseReviews />
+    <BaseBlog class="py-32" />
   </div>
 </template>
 
 <script>
+import BaseBlog from './components/BaseBlog.vue';
 import BaseConsultants from './components/BaseConsultants.vue';
 import BaseHeader from './components/BaseHeader.vue';
 import BaseHero from './components/BaseHero.vue';
@@ -28,6 +30,7 @@ export default {
     BaseStrategy,
     BaseProject,
     BaseReviews,
+    BaseBlog,
   },
 };
 </script>

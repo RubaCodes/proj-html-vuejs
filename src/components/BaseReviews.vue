@@ -20,7 +20,7 @@
 import ReviewsLibrary from './sections/ReviewsLibrary.vue';
 export default {
   components: { ReviewsLibrary },
-  name: ' BaseReviews',
+  name: 'BaseReviews',
 };
 </script>
 
