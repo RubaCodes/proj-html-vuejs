@@ -33,7 +33,7 @@
           similique iusto totam? Rem, distinctio.
         </p>
         <BaseButton
-          class="mt-8 absolute bottom-0 right-0 text-white"
+          class="mt-8 absolute bottom-0 right-0 text-white px-16 bg-red-500"
           :color="'bg-red-500'"
           :innerText="'read more'"
         />

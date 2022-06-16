@@ -1,6 +1,6 @@
 <template>
   <button
-    class="py-4 px-8 uppercase hover:bg-red-500 hover: text-white hover:transition-colors"
+    class="uppercase hover:bg-red-500 hover: text-white hover:transition-colors px-8 py-4"
     :class="color"
   >
     {{ innerText }}
@@ -12,7 +12,6 @@ export default {
   name: 'BaseButton',
   props: {
     innerText: String,
-    color: String,
   },
 };
 </script>
