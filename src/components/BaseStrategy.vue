@@ -1,6 +1,6 @@
 <template>
   <section
-    class="bg-slate-900 bg-strategy-pattern bg-no-repeat bg-left bg-contain"
+    class="bg-dark-background bg-strategy-pattern bg-no-repeat bg-left bg-contain"
     id="strategy"
   >
     <div class="container mx-auto text-white py-56" id="hero-title">

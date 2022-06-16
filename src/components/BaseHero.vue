@@ -1,6 +1,6 @@
 <template>
   <section
-    class="bg-slate-900 bg-hero-pattern bg-no-repeat bg-right bg-contain"
+    class="bg-dark-background bg-hero-pattern bg-no-repeat bg-right bg-contain"
     id="hero"
   >
     <div
@@ -8,16 +8,16 @@
       id="hero-title"
     >
       <div class="flex gap-4 items-baseline">
-        <hr class="w-20 border-green-400 border-2" />
+        <hr class="w-20 border-water-green border-2" />
         <h3 class="text-2xl">always the best way you need it</h3>
       </div>
       <h1 class="text-9xl w-2/5">the best business consulting</h1>
 
       <BaseButton
-        class="mt-8 px-8 py-4 bg-green-400 text-black"
+        class="mt-8 px-8 py-4 bg-water-green text-black"
         :innerText="'read more'"
       />
-      <PlayButton class="ml-6" />
+      <PlayButton class="ml-6 text-water-green" />
     </div>
   </section>
 </template>
