@@ -10,12 +10,14 @@
     <BaseReviews />
     <BaseBlog class="pt-44 pb-80" />
     <BaseGetStarted class="py-44" />
+    <BaseFooter />
   </div>
 </template>
 
 <script>
 import BaseBlog from './components/BaseBlog.vue';
 import BaseConsultants from './components/BaseConsultants.vue';
+import BaseFooter from './components/BaseFooter.vue';
 import BaseGetStarted from './components/BaseGetStarted.vue';
 import BaseHeader from './components/BaseHeader.vue';
 import BaseHero from './components/BaseHero.vue';
@@ -34,6 +36,7 @@ export default {
     BaseReviews,
     BaseBlog,
     BaseGetStarted,
+    BaseFooter,
   },
 };
 </script>
