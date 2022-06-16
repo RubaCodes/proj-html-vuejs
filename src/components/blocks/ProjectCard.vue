@@ -7,7 +7,7 @@
     <img
       class="block transition-opacity 100ms ease-in-out"
       :class="{ 'opacity-20': hovered }"
-      src="https://picsum.photos/790/592"
+      :src="require('/src/assets/img/' + project.media)"
       :alt="project.name"
     />
     <div

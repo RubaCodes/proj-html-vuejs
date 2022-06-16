@@ -32,17 +32,17 @@ export default Vue.observable({
     {
       name: 'dry',
       category: 'uncategorized',
-      media: '/src/assets/img/DRY-1-790x592.jpg',
+      media: 'DRY-1-790x592.jpg',
     },
     {
       name: 'sponsorship global',
       category: 'uncategorized',
-      media: '/src/assets/img/221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg',
+      media: '221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg',
     },
     {
       name: 'vizeon',
       category: 'uncategorized',
-      media: '../assets/img/z1el4c4p-790x592.jpg',
+      media: 'z1el4c4p-790x592.jpg',
     },
   ],
   reviews: [
