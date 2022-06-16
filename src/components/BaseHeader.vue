@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto flex justify-between items-center">
     <img class="w-36" src="../assets/img/logotype.png" alt="logo" />
-    <BaseNav />
+    <BaseNav class="hidden xl:flex" />
   </div>
 </template>
 
