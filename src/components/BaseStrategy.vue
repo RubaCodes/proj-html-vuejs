@@ -21,7 +21,7 @@
         </p>
       </div>
     </div>
-    <div class="w-[95%] mr-auto bg-green-400 py-16 relative">
+    <div class="w-[90%] mr-auto bg-green-400 py-16 relative">
       <div class="container w-3/5 mx-auto flex gap-80 items-center">
         <h3 class="text-2xl uppercase w-3/12 font-bold">
           we help to deliver the business case
