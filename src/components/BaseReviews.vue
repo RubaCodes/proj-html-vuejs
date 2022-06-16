@@ -10,11 +10,14 @@
         what's the customer say about our work
       </h2>
     </div>
+    <ReviewsLibrary />
   </section>
 </template>
 
 <script>
+import ReviewsLibrary from './sections/ReviewsLibrary.vue';
 export default {
+  components: { ReviewsLibrary },
   name: ' BaseReviews',
 };
 </script>
