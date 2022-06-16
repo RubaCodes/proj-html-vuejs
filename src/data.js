@@ -51,18 +51,21 @@ export default Vue.observable({
       company: 'Amazon',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
+      profilePic: 'oliver-ragfelt-488196-2.jpg',
     },
     {
       name: 'Todd Howard',
       company: 'Google',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
+      profilePic: 'oliver-ragfelt-488196-unsplash.jpg',
     },
     {
       name: 'Jeremi Hammond',
       company: 'Microsoft',
       paragraph:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      profilePic: '12679.jpg',
     },
   ],
   blogPosts: [
