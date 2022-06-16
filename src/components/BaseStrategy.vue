@@ -21,6 +21,7 @@
         </p>
       </div>
     </div>
+    <!-- sezione verde strategy -->
     <div class="w-[90%] mr-auto bg-primary-green py-24 relative">
       <div class="container w-3/5 mx-auto flex gap-80 items-center">
         <h3 class="text-3xl uppercase w-3/12 font-bold">

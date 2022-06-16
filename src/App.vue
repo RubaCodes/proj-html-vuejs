@@ -4,7 +4,7 @@
       class="bg-transparent text-white absolute top-0 left-0 right-0 z-10"
     />
     <BaseHero />
-    <BaseConsultants class="py-28" />
+    <BaseConsultants class="py-40" />
     <BaseStrategy />
     <BaseProject class="py-32" />
     <BaseReviews />

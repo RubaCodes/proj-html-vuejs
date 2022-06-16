@@ -1,4 +1,5 @@
 <template>
+  <!-- b-image con offest dx ,un macello il responsive -->
   <section
     class="bg-dark-background bg-hero-pattern bg-no-repeat bg-right bg-contain"
     id="hero"
@@ -9,15 +10,16 @@
     >
       <div class="flex gap-4 items-baseline">
         <hr class="w-20 border-primary-green border-2" />
-        <h3 class="text-2xl">always the best way you need it</h3>
+        <h3 class="text-xl">always the best way you need it</h3>
       </div>
+      <!-- larghezze percentuali ? -->
       <h1 class="text-9xl w-2/5">the best business consulting</h1>
 
       <BaseButton
         class="mt-8 px-8 py-4 bg-primary-green text-black"
         :innerText="'read more'"
       />
-      <PlayButton class="ml-6 text-water-green" />
+      <PlayButton class="ml-6 text-primary-green" />
     </div>
   </section>
 </template>

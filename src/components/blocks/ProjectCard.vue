@@ -1,6 +1,6 @@
 <template>
   <div
-    class="card bg-red-700 relative text-white capitalize"
+    class="card bg-primary-red relative text-white capitalize"
     @mouseenter="hovered = !hovered"
     @mouseleave="hovered = !hovered"
   >
