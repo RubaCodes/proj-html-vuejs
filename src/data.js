@@ -65,4 +65,20 @@ export default Vue.observable({
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
     },
   ],
+  blogPosts: [
+    {
+      date: ' july 4th, 2019',
+      author: 'Paul',
+      title: 'Canada consulting firm acquired by uk giant',
+      article:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
+    },
+    {
+      date: ' july 4th, 2019',
+      author: 'Paul',
+      title: 'Canada consulting firm acquired by uk giant',
+      article:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
+    },
+  ],
 });
