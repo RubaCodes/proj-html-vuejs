@@ -72,6 +72,7 @@ export default Vue.observable({
       title: 'Canada consulting firm acquired by uk giant',
       article:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
+      media: 'startup-business-people-and-strategy-board-PAJ3P9K-1390x1042.jpg',
     },
     {
       date: ' july 4th, 2019',
@@ -79,6 +80,7 @@ export default Vue.observable({
       title: 'Canada consulting firm acquired by uk giant',
       article:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
+      media: 'business-people-working-together-on-project-and-5FHSKBL-1390.jpg',
     },
   ],
 });

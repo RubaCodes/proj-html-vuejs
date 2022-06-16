@@ -1,6 +1,6 @@
 <template>
   <div class="card relative">
-    <img src="https://via.placeholder.com/1390x1042" alt=" alt" />
+    <img :src="require('/src/assets/img/' + post.media)" :alt="post.title" />
     <div
       class="absolute w-3/4 bg-white right-0 bottom-0 px-16 py-8 translate-y-16"
     >
