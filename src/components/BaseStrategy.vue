@@ -35,8 +35,9 @@
         </p>
         <BaseButton
           class="mt-8 absolute bottom-0 right-0 text-white px-16 bg-primary-red"
-          :innerText="'read more'"
-        />
+        >
+          get started
+        </BaseButton>
       </div>
     </div>
   </section>

@@ -15,10 +15,9 @@
       <!-- larghezze percentuali ? -->
       <h1 class="text-9xl w-2/5">the best business consulting</h1>
 
-      <BaseButton
-        class="mt-8 px-8 py-4 bg-primary-green text-black"
-        :innerText="'read more'"
-      />
+      <BaseButton class="mt-8 px-8 py-4 bg-primary-green text-black">
+        read more
+      </BaseButton>
       <PlayButton class="ml-6 text-primary-green" />
     </div>
   </section>

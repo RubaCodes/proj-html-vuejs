@@ -15,10 +15,9 @@
           the recent news you must read it
         </h2>
       </div>
-      <BaseButton
-        class="bg-primary-green px-10 text-black"
-        :innerText="'view all'"
-      />
+      <BaseButton class="bg-primary-green px-10 text-black">
+        view all
+      </BaseButton>
     </div>
     <PostsLibrary class="container mx-auto" />
   </section>

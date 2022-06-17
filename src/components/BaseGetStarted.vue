@@ -8,7 +8,7 @@
         A wonderful serenity has taken possession. Far far away, behind the word
         mountains.
       </p>
-      <BaseButton class="bg-slate-900 px-16" :innerText="'get started'" />
+      <BaseButton class="bg-slate-900 px-16"> get started </BaseButton>
     </div>
   </section>
 </template>
